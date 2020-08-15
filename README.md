@@ -25,13 +25,17 @@ INSTALLATION
 
 See 'INSTALL' file included with this distribution
 
-Prior to installation, you may have to use the auto tools to create
+Prior to building, you may have to use the auto tools to [re]create
 the necessary files.  To do so, enter the following commands:
-
+<pre>
   aclocal
   autoconf
   automake --add-missing --copy
-
+</pre>
+Following this, you will need to re-run the 'configure' script
+<pre>
+  ./configure
+</pre>
 You could also run 'autoscan' at least once and do what it says.
 
 
@@ -47,11 +51,11 @@ wxrc application (contributed software)
 
 You may also need to make sure that you have a pointer to the actual
 'wxrc' application in your PATH.  As an example:
-
+<pre>
   mkdir ~/bin
   cd ~/bin
   ln -s /usr/local/bin/wxrc-gtk3u-3.0 ./wxrc
-
+</pre>
 "Your Mileage May Vary" as the path to wxrc on your system is likely
 to differ.  But doing this works WITH the autotools and avoids you
 having to specify the path directly in 'configure'.
