@@ -19,6 +19,10 @@ and it became a good example of how you can port existing Wiodows
 applications (written in C++ using MFC) to Linux and other POSIX
 systems with an X11 server (like my favorite OS, FreeBSD).
 
+You can see a video of it working, here:
+
+&nbsp;&nbsp;<a href="https://bombasticbob.github.io/sortdemo-1.1.avi">https://bombasticbob.github.io/sortdemo-1.1.avi</a><br>
+
 
 INSTALLATION
 ------------
