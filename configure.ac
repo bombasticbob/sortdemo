@@ -9,13 +9,13 @@ AC_PROG_CC([cc gcc])
 AC_PATH_XTRA
 
 AM_OPTIONS_WXCONFIG
-AM_PATH_WXCONFIG([2.6.0], wxWin=1)
+AM_PATH_WXCONFIG([3.0.0], wxWin=1)
 
 if test "$wxWin" != 1; then
   AC_MSG_ERROR([
                 wxWindows must be installed on your system, but the wx-config
                 script couldn't be located. Please check that wx-config is in
-                the path, the directory where wxWindows libraries are installed
+                the path, the directory where wxWidgets libraries are installed
                 (returned by 'wx-config --libs' command) is in LD_LIBRARY_PATH or
                 an equivalent variable, and wxWindows version is 2.6.0 or above.
                 If the wx-config location is NOT in the path, or the application 
@@ -102,11 +102,11 @@ if test $xrc_exist == "N" ; then
   echo "no (error)" >&6
 
   AC_MSG_ERROR([
-                wxWindows contributed software must be installed
+                wxWidgets contributed software must be installed
                 on your system, specifically the 'xrc' library.
                 The 'wxrc' application should also be installed
                 if you need to re-build the resources.  Please
-                check the wxWindows installation to make sure
+                check the wxWidgets installation to make sure
                 that you have built the 'xrc' library.
                ]) ;
 fi

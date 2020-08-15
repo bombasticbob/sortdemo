@@ -49,9 +49,9 @@ PRE-REQUISITES
 This software requires the following packages be installed to build
 and to run.
 
-wxWindows 3.0 or later (though 2.x may still work)
-xrc 'contributed software' (needed to build resources)
-wxrc application (contributed software)
+&nbsp;&nbsp;wxWidgets 3.0 or later (now a requirement)<br>
+&nbsp;&nbsp;xrc library (contributed software) (necessary to use resources)<br>
+&nbsp;&nbsp;wxrc application (contributed software)<br>
 
 You may also need to make sure that you have a pointer to the actual
 'wxrc' application in your PATH.  As an example:
