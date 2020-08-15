@@ -1,11 +1,7 @@
-# Sort Demo version 1.1
-A wxWidgets GUI application that graphically demonstrates various methods of sorting
+Sort Demo - sample application using wxWidgets
+(c) 1995-2020 by 'Bombastic Bob' Frazier
 
-
-Sort Demo - Graphical demo of various sort methods using wxWidgets
-Copyright (c) 1995-2020 by 'Bombastic Bob' Frazier
-
-For licensing information, see LICENSE
+For licensing information, see LIC#ENSE
 
 There are no other restrictions on its distribution or use.  You may freely
 use and distribute this application in accordance with the license.
@@ -64,5 +60,6 @@ find a way to install them.  In FreeBSD, for example, there is a separate
 port to install 'contributed' software, and 'development tools' for the
 wxWidgets package.  Other systems, such as APT or RPM, will probably have
 similar conventions.
+
 
 
